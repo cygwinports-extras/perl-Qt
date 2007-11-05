@@ -1,0 +1,4 @@
+category: Perl KDE
+requires: cygwin perl qt3 smokeqt
+sdesc: "Perl bindings for Qt-3"
+ldesc: "Perl bindings for Qt-3"
