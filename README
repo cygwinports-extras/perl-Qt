@@ -3,21 +3,19 @@ perl-Qt
 Perl bindings for Qt-3.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  perl-5.8.8-4
-  qt3-3.3.8-3
+  cygwin-1.5.25-7
+  perl-5.10.0-3
+  qt3-3.3.8-4
   smokeqt-3.5.8-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
+  cygport-0.3.9-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   make-3.81-1
-  perl-5.8.8-4
   sed-4.1.5-2
 
 Canonical homepage:
@@ -45,25 +43,24 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Qt.sh
   /usr/bin/pqtapi
   /usr/bin/pqtsh
   /usr/bin/puic.exe
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/GlobalSpace.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/attributes.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/constants.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/debug.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/enumerations.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/isa.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/properties.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/signals.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Qt/slots.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Qt/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Qt/Qt.bs
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Qt/Qt.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Qt/libQt.dll.a
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/GlobalSpace.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/attributes.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/constants.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/debug.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/enumerations.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/isa.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/properties.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/signals.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Qt/slots.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Qt/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Qt/Qt.bs
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Qt/Qt.dll
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Qt/libQt.dll.a
   /usr/share/doc/Cygwin/perl-Qt-3.009_b2.README
   /usr/share/doc/perl-Qt-3.009_b2/AUTHORS
   /usr/share/doc/perl-Qt-3.009_b2/COPYING
@@ -73,11 +70,13 @@ Files included in the binary package:
   /usr/share/doc/perl-Qt-3.009_b2/TODO
   /usr/share/man/man1/puic.1.gz
   /usr/share/man/man3/Qt.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Qt.pod
 
 ------------------
 
 Port Notes:
+
+----- version 3.009_b2-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 3.009_b2-1 -----
 Version bump; built with cygport.

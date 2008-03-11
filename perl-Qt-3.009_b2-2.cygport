@@ -1,0 +1,15 @@
+inherit kde3 perl
+
+DESCRIPTION="Perl Qt3 bindings"
+HOMEPAGE="http://perlqt.sourceforge.net/"
+SRC_URI="mirror://sourceforge/perlqt/PerlQt-${PV/_/-}.tar.gz"
+SRC_DIR="PerlQt-${PV%_*}"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	kde3_compile
+
+	cd ${B}/PerlQt
+	perl_compile
+}
